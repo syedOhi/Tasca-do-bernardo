@@ -244,32 +244,56 @@ ul {
     display: flex;
     align-items: center;
     flex-shrink: 0;
-    gap: 14px;
+    gap: 10px;
 }
 
 .language-switcher {
+    position: relative;
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 8px 12px;
+    gap: 8px;
+    min-height: 46px;
+    padding: 7px 32px 7px 11px;
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid var(--stroke);
     border-radius: 999px;
     backdrop-filter: blur(14px);
 }
 
+.language-switcher::after {
+    content: "\f107";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 0.72rem;
+    color: var(--muted);
+    pointer-events: none;
+}
+
 .language-switcher i {
     color: var(--gold);
+    font-size: 0.82rem;
 }
 
 .language-switcher select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     width: auto;
+    min-width: 3ch;
     border: 0;
     background: transparent;
     color: var(--text);
-    font-size: 0.9rem;
+    font-size: 0.84rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     outline: none;
     cursor: pointer;
+    padding: 0;
 }
 
 .language-switcher option {
@@ -338,23 +362,42 @@ body.menu-open .nav-backdrop {
 
 .hamburger {
     display: none;
-    border: 0;
+    align-items: center;
+    gap: 10px;
+    min-height: 46px;
+    padding: 8px 12px;
+    border: 1px solid var(--stroke);
     background: rgba(255, 255, 255, 0.08);
-    border-radius: 12px;
-    padding: 10px;
+    color: var(--text);
+    border-radius: 999px;
+    backdrop-filter: blur(14px);
     cursor: pointer;
+}
+
+.menu-toggle-text {
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.menu-toggle-icon {
+    display: grid;
+    gap: 4px;
+    width: 18px;
 }
 
 .bar {
     display: block;
-    width: 24px;
+    width: 18px;
     height: 2px;
+    border-radius: 999px;
     background: #fff;
     transition: transform var(--transition), opacity var(--transition);
 }
 
 .bar + .bar {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .hero {
@@ -1939,8 +1982,8 @@ select:focus-visible {
         z-index: 39;
         flex-direction: column;
         align-items: stretch;
-        gap: 10px;
-        padding: 18px;
+        gap: 0;
+        padding: 16px 18px 10px;
         border-radius: 22px;
         background: rgba(10, 8, 9, 0.95);
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1960,13 +2003,26 @@ select:focus-visible {
 
     .nav-links a {
         display: block;
-        padding: 13px 16px;
-        border-radius: 16px;
-        background: rgba(255, 255, 255, 0.04);
+        padding: 14px 2px;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .nav-links li + li {
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     .nav-links li:last-child a {
-        text-align: center;
+        text-align: left;
+        padding-top: 14px;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        color: var(--gold);
+    }
+
+    .nav-links a::after {
+        display: none;
     }
 
     .hamburger {
@@ -1976,7 +2032,7 @@ select:focus-visible {
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(7px) rotate(45deg);
+        transform: translateY(6px) rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -1984,7 +2040,7 @@ select:focus-visible {
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-7px) rotate(-45deg);
+        transform: translateY(-6px) rotate(-45deg);
     }
 
     .hero h1 {
@@ -2131,13 +2187,40 @@ select:focus-visible {
     .language-switcher {
         flex: 0 1 auto;
         min-width: 0;
-        max-width: 170px;
+        max-width: 96px;
+        min-height: 42px;
+        padding: 6px 28px 6px 10px;
+    }
+
+    .language-switcher::after {
+        right: 10px;
+        font-size: 0.66rem;
     }
 
     .language-switcher select {
         width: auto;
         min-width: 0;
-        max-width: 100px;
+        max-width: 34px;
+        font-size: 0.76rem;
+    }
+
+    .hamburger {
+        min-height: 42px;
+        padding: 6px 10px;
+        gap: 8px;
+    }
+
+    .menu-toggle-text {
+        font-size: 0.7rem;
+        letter-spacing: 0.1em;
+    }
+
+    .menu-toggle-icon {
+        width: 16px;
+    }
+
+    .bar {
+        width: 16px;
     }
 
     .hero-content {

@@ -1837,6 +1837,16 @@ document.addEventListener("DOMContentLoaded", () => {
         nl: "nl-NL"
     };
 
+    const compactLanguageLabels = {
+        pt: "PT",
+        en: "EN",
+        es: "ES",
+        fr: "FR",
+        de: "DE",
+        it: "IT",
+        nl: "NL"
+    };
+
     let currentLanguage = "pt";
     let currentGalleryIndex = 0;
     let galleryIntervalId = null;
@@ -1938,6 +1948,16 @@ document.addEventListener("DOMContentLoaded", () => {
         if (elements.footerHomeLink && copy.footerHome) {
             elements.footerHomeLink.textContent = copy.footerHome;
         }
+    }
+
+    function syncLanguageSelect() {
+        if (!elements.languageSelect) {
+            return;
+        }
+
+        Array.from(elements.languageSelect.options).forEach((option) => {
+            option.textContent = compactLanguageLabels[option.value] || option.value.toUpperCase();
+        });
     }
 
     function getMenuItemMeta(categoryKey, item) {
@@ -2049,7 +2069,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function getMenuToggleLabel(isOpen) {
-        return isOpen ? "Close menu" : currentLanguage === "pt" ? "Abrir menu" : "Open menu";
+        if (currentLanguage === "pt") {
+            return isOpen ? "Fechar menu" : "Abrir menu";
+        }
+
+        return isOpen ? "Close menu" : "Open menu";
     }
 
     function getFocusableElements(container) {
@@ -2198,6 +2222,7 @@ document.addEventListener("DOMContentLoaded", () => {
             elements.hamburger.setAttribute("aria-label", getMenuToggleLabel(isExpanded));
         }
 
+        syncLanguageSelect();
         applyContextTranslations(copy);
         syncBusinessDetails();
         renderQrCode();
