@@ -4,21 +4,21 @@ document.addEventListener("DOMContentLoaded", () => {
         logo: "assets/images/tasca do bernardo logo.png",
         exterior: "assets/images/470125189_1665079541018404_1252334412030162214_n.jpg",
         terrace: "assets/images/470162725_1665079141018444_509668604536751405_n.jpg",
-        wine: "assets/images/image.png",
-        lamb: "assets/images/469875042_1665079437685081_3229248491716602161_n.jpg",
-        grilled: "assets/images/469957553_1665079424351749_782398373624564268_n.jpg",
-        creamySteak: "assets/images/469988535_1665079514351740_7717206032578285559_n.jpg",
-        greens: "assets/images/470074170_1665079441018414_7868646413589459517_n.jpg",
-        acorda: "assets/images/55892336_331867177672987_6975823768346165248_n.jpg",
-        carrots: "assets/images/55935496_331870727672632_7385020940612009984_n.jpg",
-        dessert: "assets/images/55536481_332194830973555_6418442686700716032_n.jpg"
+        wine: "assets/images/1778665510989.publer.com.jpg",
+        lamb: "assets/images/1778665372083.publer.com.jpg",
+        grilled: "assets/images/1778665262827.publer.com.jpg",
+        creamySteak: "assets/images/1778665371092.publer.com.jpg",
+        greens: "assets/images/1778665429671.publer.com.jpg",
+        acorda: "assets/images/1778665582999.publer.com.jpg",
+        carrots: "assets/images/1778665264825.publer.com.jpg",
+        dessert: "assets/images/1778665323374.publer.com.jpg"
     };
 
     const uiCopy = {
         pt: {
             title: "Tasca O Bernardo | Alentejo Grill House",
             description: "Tasca O Bernardo em Boavista dos Pinheiros. Grelhados premium, porco preto, sabores do Alentejo, ambiente cinematografico e reservas rapidas.",
-            navStory: "Ambiente",
+            navStory: "Sobre o restaurante",
             navMenu: "Carta",
             navGallery: "Galeria",
             navBook: "Reservas",
@@ -30,17 +30,21 @@ document.addEventListener("DOMContentLoaded", () => {
             heroHighlight1: "Video real do restaurante",
             heroHighlight2: "Brasa premium e porco preto",
             heroHighlight3: "Atmosfera rustica portuguesa",
-            storyTag: "A experiencia",
-            storyTitle: "Uma tasca elegante, escura e cheia de calor alentejano",
-            storyBody: "Tasca O Bernardo mistura a rustica autenticidade do Alentejo com um toque premium de steakhouse moderna. Brasa viva, texturas quentes, boa conversa e pratos intensos definem a experiencia.",
-            storyPoint1Title: "Logo e identidade",
-            storyPoint1Text: "Marca forte centrada no hero com destaque cinematografico.",
-            storyPoint2Title: "Video e galeria real",
-            storyPoint2Text: "Fotos e video locais espalhados pelas seccoes principais.",
-            storyPoint3Title: "Carta interativa",
-            storyPoint3Text: "Botoes ativos com popup glassmorphism para cada familia de pratos.",
-            storyBadgeTop: "Premium rustic",
-            storyBadgeBottom: "Alentejo fire kitchen",
+            storyTag: "Sobre o restaurante",
+            storyTitle: "Uma tasca portuguesa com grelha, alma alentejana e ambiente acolhedor",
+            storyBody: "Tasca O Bernardo combina sabores portugueses tradicionais, grelhados cheios de carater e um ambiente caloroso em Boavista dos Pinheiros. E um sitio pensado para quem quer comer bem, sentir a identidade do Alentejo e reservar com facilidade.",
+            storyPoint1Title: "Sabores tradicionais",
+            storyPoint1Text: "Cozinha portuguesa com pratos da casa, porco preto e referencias do Alentejo.",
+            storyPoint2Title: "Brasa e especialidades",
+            storyPoint2Text: "Grelhados, cortes procurados e uma carta pensada para grupos, familias e visitantes.",
+            storyPoint3Title: "Sala e esplanada",
+            storyPoint3Text: "Um espaco acolhedor para jantares tranquilos, encontros em familia ou refeicoes mais especiais.",
+            storySignal1Title: "Identidade local",
+            storySignal1Text: "Boavista dos Pinheiros, Odemira, com um estilo simples, autentico e muito ligado ao sabor regional.",
+            storySignal2Title: "Bom para decidir rapido",
+            storySignal2Text: "Menu, WhatsApp, mapa e reservas no mesmo sitio para facilitar a vida a clientes de todas as idades.",
+            storyBadgeTop: "Restaurante portugues",
+            storyBadgeBottom: "Brasa, tradicao e hospitalidade",
             menuTag: "Carta interativa",
             menuTitle: "Escolha uma categoria e abra a experiencia completa",
             menuIntro: "Cada botao abre uma carta premium com pratos, imagens reais e ambiente visual inspirado na brasa.",
@@ -105,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
         en: {
             title: "Tasca O Bernardo | Alentejo Grill House",
             description: "Tasca O Bernardo in Boavista dos Pinheiros. Premium grilled meats, black pork, Alentejo flavours, cinematic atmosphere and quick reservations.",
-            navStory: "Atmosphere",
+            navStory: "About restaurant",
             navMenu: "Menu",
             navGallery: "Gallery",
             navBook: "Bookings",
@@ -117,17 +121,21 @@ document.addEventListener("DOMContentLoaded", () => {
             heroHighlight1: "Real restaurant video",
             heroHighlight2: "Premium grill and black pork",
             heroHighlight3: "Portuguese rustic atmosphere",
-            storyTag: "The experience",
-            storyTitle: "An elegant dark tavern filled with Alentejo warmth",
-            storyBody: "Tasca O Bernardo blends the rustic authenticity of Alentejo with a premium modern steakhouse feel. Live fire, warm textures and bold dishes shape the experience.",
-            storyPoint1Title: "Logo and identity",
-            storyPoint1Text: "Strong branding centered in the hero with a cinematic spotlight.",
-            storyPoint2Title: "Real video and gallery",
-            storyPoint2Text: "Local photos and video distributed across the main sections.",
-            storyPoint3Title: "Interactive menu",
-            storyPoint3Text: "Active buttons with a glassmorphism popup for each food family.",
-            storyBadgeTop: "Premium rustic",
-            storyBadgeBottom: "Alentejo fire kitchen",
+            storyTag: "About restaurant",
+            storyTitle: "A Portuguese tavern with grill, Alentejo soul and a welcoming atmosphere",
+            storyBody: "Tasca O Bernardo brings together traditional Portuguese flavours, characterful grilled dishes and a warm setting in Boavista dos Pinheiros. It is designed for guests who want to eat well, feel the Alentejo identity and book without friction.",
+            storyPoint1Title: "Traditional flavours",
+            storyPoint1Text: "Portuguese cuisine with house dishes, black pork and references from the Alentejo region.",
+            storyPoint2Title: "Grill and specialties",
+            storyPoint2Text: "Grilled meats, sought-after cuts and a menu suited to groups, families and visitors.",
+            storyPoint3Title: "Dining room and terrace",
+            storyPoint3Text: "A welcoming space for calm dinners, family gatherings or more special meals.",
+            storySignal1Title: "Local identity",
+            storySignal1Text: "Boavista dos Pinheiros, Odemira, with a simple, authentic style closely tied to regional flavour.",
+            storySignal2Title: "Easy to understand fast",
+            storySignal2Text: "Menu, WhatsApp, map and reservations all in one place to help guests of every age.",
+            storyBadgeTop: "Portuguese restaurant",
+            storyBadgeBottom: "Fire, tradition and hospitality",
             menuTag: "Interactive menu",
             menuTitle: "Choose a category and open the full experience",
             menuIntro: "Each button opens a premium menu view with dishes, real images and a live-fire mood.",
@@ -626,6 +634,225 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
+    const extraCopy = {
+        pt: {
+            skipLink: "Saltar para o conteudo",
+            menuButtonTraditionalLabel: "Tradicional",
+            menuButtonGrilledLabel: "Grelhados",
+            menuButtonStartersLabel: "Entradas",
+            menuButtonDessertsLabel: "Sobremesas",
+            fishSectionTag: "Peixe",
+            fishFeature1: "Camarao",
+            fishFeature2: "Ameijoas",
+            fishFeature3: "Acorda Alentejana",
+            fishFeature4: "Sopa de Tomate Alentejana",
+            grillSectionTag: "Grelhados",
+            grillFeature1: "Costeleta de Borrego",
+            grillFeature2: "Lombo Grelhado 250g",
+            grillFeature3: "Espetada de Lombo",
+            grillFeature4: "Lombinhos com Molho de Pimenta",
+            blackPorkSectionTag: "Porco Preto",
+            blackPorkFeature1: "Secretos",
+            blackPorkFeature2: "Plumas",
+            blackPorkFeature3: "Lagartos",
+            blackPorkFeature4: "Carne Alentejana",
+            formNamePlaceholder: "O seu nome",
+            formPhonePlaceholder: "+351...",
+            formMessagePlaceholder: "Ex.: aniversario, mesa na esplanada, jantar romantico...",
+            guestsPlaceholder: "Selecionar",
+            guestsOption2: "2 pessoas",
+            guestsOption4: "4 pessoas",
+            guestsOption6: "6 pessoas",
+            guestsOption8: "8 ou mais",
+            footerHome: "Home",
+            galleryLiveTag: "Instagram ao vivo",
+            galleryLiveTitle: "Mais fotos reais, pratos do dia e ambiente da casa",
+            galleryLiveBody: "Use o Instagram para mostrar movimento real da sala, pratos acabados de sair e noites cheias sem precisar atualizar o site sempre.",
+            galleryLiveButton: "Seguir no Instagram",
+            galleryReviewTag: "Confianca",
+            galleryReviewTitle: "Fotos bonitas ajudam. Prova social fecha a reserva.",
+            galleryReviewBody: "Combinando galeria real, reviews publicas e WhatsApp rapido, os visitantes entendem mais depressa o espaco e sentem-se mais seguros para marcar.",
+            galleryReviewButton: "Ver reviews",
+            reviewsTag: "Reviews",
+            reviewsTitle: "Sinais de confianca que ajudam a reservar mais depressa",
+            reviewsIntro: "Baseado em reviews publicas e no perfil do restaurante, esta secao transforma reputacao em decisao rapida.",
+            reviewsMetricRating: "avaliacao publica no Tripadvisor",
+            reviewsMetricVolume: "reviews publicas de clientes",
+            reviewsMetricFeatureValue: "Reservas + esplanada",
+            reviewsMetricFeature: "o que os visitantes mais valorizam",
+            reviewsCard1Chip: "Pratos elogiados",
+            reviewsCard1Title: "Porco preto, grelhados e migas aparecem varias vezes nas opinioes",
+            reviewsCard1Body: "Uma mensagem forte para novos clientes: a casa e lembrada pela carne na brasa e pelo lado alentejano mais autentico.",
+            reviewsCard2Chip: "Ambiente",
+            reviewsCard2Title: "A esplanada, a atmosfera e o acolhimento ajudam muito na primeira impressao",
+            reviewsCard2Body: "Vale a pena reforcar no site que o espaco funciona tanto para um jantar tranquilo como para grupos e familias.",
+            reviewsCard3Chip: "Decisao rapida",
+            reviewsCard3Title: "Quando o cliente ve reviews, menu e WhatsApp no mesmo sitio, marca mais facilmente",
+            reviewsCard3Body: "Esta combinacao reduz duvidas, sobretudo para quem chega pelo telemovel e quer agir sem procurar informacao noutras apps.",
+            reviewsPrimaryButton: "Ler reviews",
+            reviewsSecondaryButton: "Ver fotos recentes",
+            bookingQuickWhatsappTitle: "WhatsApp em 1 toque",
+            bookingQuickWhatsappText: "A forma mais rapida para reservar ou perguntar disponibilidade.",
+            bookingQuickCallTitle: "Ligar agora",
+            bookingQuickCallText: "Ideal para quem quer confirmar mesa em poucos segundos.",
+            bookingQuickMapTitle: "Ir para o mapa",
+            bookingQuickMapText: "Bom para turistas e clientes que estao ja a caminho.",
+            formWhatsapp: "Enviar por WhatsApp",
+            formCopy: "Copiar pedido",
+            formSummaryTitle: "Resumo pronto para enviar",
+            qrTargetReserve: "Reserva",
+            qrTargetMenu: "Carta",
+            qrTargetMap: "Mapa",
+            qrTargetReviews: "Reviews",
+            qrCurrentLabel: "QR atual:",
+            qrOpenLink: "Abrir destino do QR",
+            qrLabelReserve: "Reserva rapida",
+            qrLabelMenu: "Carta e menu",
+            qrLabelMap: "Como chegar",
+            qrLabelReviews: "Reviews publicas",
+            mobileCall: "Ligar",
+            mobileWhatsapp: "WhatsApp",
+            mobileReserve: "Reservar",
+            mobileMap: "Mapa",
+            messagesCopyReady: "Pedido copiado. Pode colar no WhatsApp, SMS ou onde preferir."
+        },
+        en: {
+            skipLink: "Skip to content",
+            menuButtonTraditionalLabel: "Traditional",
+            menuButtonGrilledLabel: "Grilled",
+            menuButtonStartersLabel: "Starters",
+            menuButtonDessertsLabel: "Desserts",
+            fishSectionTag: "Fish",
+            fishFeature1: "Shrimps",
+            fishFeature2: "Clams",
+            fishFeature3: "Alentejo Acorda",
+            fishFeature4: "Alentejo Tomato Soup",
+            grillSectionTag: "Grilled",
+            grillFeature1: "Lamb Chop",
+            grillFeature2: "Grilled Loin 250g",
+            grillFeature3: "Loin Skewer",
+            grillFeature4: "Tenderloin with Pepper Sauce",
+            blackPorkSectionTag: "Black Pork",
+            blackPorkFeature1: "Secretos",
+            blackPorkFeature2: "Plumas",
+            blackPorkFeature3: "Lagartos",
+            blackPorkFeature4: "Carne Alentejana",
+            formNamePlaceholder: "Your name",
+            formPhonePlaceholder: "+351...",
+            formMessagePlaceholder: "Example: birthday, terrace table, romantic dinner...",
+            guestsPlaceholder: "Select",
+            guestsOption2: "2 guests",
+            guestsOption4: "4 guests",
+            guestsOption6: "6 guests",
+            guestsOption8: "8 or more",
+            footerHome: "Home",
+            galleryLiveTag: "Live Instagram",
+            galleryLiveTitle: "More real photos, daily dishes and the mood of the house",
+            galleryLiveBody: "Use Instagram to show a real busy dining room, fresh plates and lively nights without updating the website every time.",
+            galleryLiveButton: "Follow on Instagram",
+            galleryReviewTag: "Trust",
+            galleryReviewTitle: "Beautiful photos help. Social proof closes the booking.",
+            galleryReviewBody: "When real photos, public reviews and fast WhatsApp access sit together, visitors understand the place faster and feel safer booking.",
+            galleryReviewButton: "See reviews",
+            reviewsTag: "Reviews",
+            reviewsTitle: "Trust signals that help guests book faster",
+            reviewsIntro: "Built from public reviews and the restaurant profile, this section turns reputation into a quicker decision.",
+            reviewsMetricRating: "public Tripadvisor rating",
+            reviewsMetricVolume: "public guest reviews",
+            reviewsMetricFeatureValue: "Reservations + terrace",
+            reviewsMetricFeature: "what visitors value most",
+            reviewsCard1Chip: "Praised dishes",
+            reviewsCard1Title: "Black pork, grilled meats and migas show up repeatedly in guest opinions",
+            reviewsCard1Body: "That gives new visitors a clear signal: the house is remembered for fire-led meat and authentic Alentejo flavour.",
+            reviewsCard2Chip: "Atmosphere",
+            reviewsCard2Title: "The terrace, ambience and welcome matter a lot in the first impression",
+            reviewsCard2Body: "It is worth reinforcing on the website that the space works for calm dinners, groups and families alike.",
+            reviewsCard3Chip: "Quick decision",
+            reviewsCard3Title: "When guests see reviews, menu and WhatsApp in one place, they book more easily",
+            reviewsCard3Body: "This combination removes friction, especially for mobile visitors who want to act without searching through other apps.",
+            reviewsPrimaryButton: "Read reviews",
+            reviewsSecondaryButton: "See recent photos",
+            bookingQuickWhatsappTitle: "WhatsApp in 1 tap",
+            bookingQuickWhatsappText: "The fastest way to book or ask about availability.",
+            bookingQuickCallTitle: "Call now",
+            bookingQuickCallText: "Ideal for guests who want to confirm a table in seconds.",
+            bookingQuickMapTitle: "Open directions",
+            bookingQuickMapText: "Useful for tourists and guests already on the way.",
+            formWhatsapp: "Send by WhatsApp",
+            formCopy: "Copy request",
+            formSummaryTitle: "Summary ready to send",
+            qrTargetReserve: "Booking",
+            qrTargetMenu: "Menu",
+            qrTargetMap: "Map",
+            qrTargetReviews: "Reviews",
+            qrCurrentLabel: "Current QR:",
+            qrOpenLink: "Open QR destination",
+            qrLabelReserve: "Quick booking",
+            qrLabelMenu: "Menu and dishes",
+            qrLabelMap: "Directions",
+            qrLabelReviews: "Public reviews",
+            mobileCall: "Call",
+            mobileWhatsapp: "WhatsApp",
+            mobileReserve: "Book",
+            mobileMap: "Map",
+            messagesCopyReady: "Request copied. You can paste it into WhatsApp, SMS or anywhere else."
+        }
+    };
+
+    Object.entries(extraCopy).forEach(([languageCode, values]) => {
+        Object.assign(uiCopy[languageCode], values);
+    });
+    ["es", "fr", "de", "it", "nl"].forEach((languageCode) => {
+        Object.assign(uiCopy[languageCode], extraCopy.en);
+    });
+
+    const aboutFallbackCopy = {
+        navStory: uiCopy.en.navStory,
+        storyTag: uiCopy.en.storyTag,
+        storyTitle: uiCopy.en.storyTitle,
+        storyBody: uiCopy.en.storyBody,
+        storyPoint1Title: uiCopy.en.storyPoint1Title,
+        storyPoint1Text: uiCopy.en.storyPoint1Text,
+        storyPoint2Title: uiCopy.en.storyPoint2Title,
+        storyPoint2Text: uiCopy.en.storyPoint2Text,
+        storyPoint3Title: uiCopy.en.storyPoint3Title,
+        storyPoint3Text: uiCopy.en.storyPoint3Text,
+        storySignal1Title: uiCopy.en.storySignal1Title,
+        storySignal1Text: uiCopy.en.storySignal1Text,
+        storySignal2Title: uiCopy.en.storySignal2Title,
+        storySignal2Text: uiCopy.en.storySignal2Text,
+        storyBadgeTop: uiCopy.en.storyBadgeTop,
+        storyBadgeBottom: uiCopy.en.storyBadgeBottom
+    };
+    ["es", "fr", "de", "it", "nl"].forEach((languageCode) => {
+        Object.assign(uiCopy[languageCode], aboutFallbackCopy);
+    });
+
+    const menuTagLabels = {
+        pt: {
+            popular: "Popular",
+            signature: "Assinatura",
+            grill: "Brasa",
+            local: "Alentejo",
+            seafood: "Mar",
+            premium: "Premium",
+            share: "Partilhar",
+            comfort: "Conforto",
+            sweet: "Doce"
+        },
+        en: {
+            popular: "Popular",
+            signature: "Signature",
+            grill: "Grill",
+            local: "Alentejo",
+            seafood: "Sea",
+            premium: "Premium",
+            share: "Sharing",
+            comfort: "Comfort",
+            sweet: "Sweet"
+        }
+    };
+
     const menuData = {
         tradicional: {
             title: "Traditional",
@@ -639,7 +866,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         { name: "Shrimps", note: "Sabor do mar com final delicado e textura rica.", image: imageAssets.grilled },
                         { name: "Clams", note: "Ameijoas com carater costeiro e perfil salino.", image: imageAssets.greens },
                         { name: "Açorda Alentejana", note: "Conforto alentejano em prato icónico.", image: imageAssets.acorda },
-                        { name: "Soup Alentejana", note: "Entrada quente e aromatica para noites tranquilas.", image: imageAssets.wine }
+                        { name: "Sopa de Tomate Alentejana", note: "Sopa de tomate com bacalhau, ovo e pedacos de pao para um conforto tipico da casa.", image: imageAssets.wine }
                     ]
                 },
                 {
@@ -665,20 +892,39 @@ document.addEventListener("DOMContentLoaded", () => {
             mediaSrc: videoAsset,
             groups: [
                 {
-                    title: "Premium Grill",
+                    title: "Porco Preto",
                     items: [
-                        { name: "Grilled Lamb Chop", note: "Costeleta com perfil elegante e forte.", image: imageAssets.lamb },
+                        { name: "Black Pork", note: "Brasa premium com carater alentejano.", image: imageAssets.grilled },
+                        { name: "Secretos", note: "Corte suculento e muito procurado.", image: imageAssets.grilled },
+                        { name: "Plumas", note: "Tenras, delicadas e cheias de sabor.", image: imageAssets.lamb },
+                        { name: "Lagartos", note: "Brasa viva e acabamento memoravel.", image: imageAssets.grilled },
+                        { name: "Carne Alentejana", note: "Feita na frigideira com vinho branco, ameijoas e carne de porco.", image: imageAssets.acorda }
+                    ]
+                },
+                {
+                    title: "Frango",
+                    items: [
                         { name: "Lombinhos Bifinhos Alentejana com Coentros e Alhos", note: "Corte fino com assinatura tradicional.", image: imageAssets.grilled },
                         { name: "Lombinhos Grelhados", note: "Brasa direta e acabamento suculento.", image: imageAssets.grilled },
                         { name: "Lombinhos com Molho de Pimenta", note: "Molho vibrante e quente.", image: imageAssets.creamySteak },
                         { name: "Lombinhos com Molho de Cogumelos", note: "Camada cremosa e aromatica.", image: imageAssets.creamySteak },
-                        { name: "Lombinhos com Molho Roquefort", note: "Perfil premium com intensidade azul.", image: imageAssets.lamb },
+                        { name: "Lombinhos com Molho Roquefort", note: "Perfil intenso com acabamento cremoso.", image: imageAssets.lamb }
+                    ]
+                },
+                {
+                    title: "Lombo de Novilho",
+                    items: [
                         { name: "Lombo Grelhado 250g", note: "Corte robusto para amantes de carne.", image: imageAssets.grilled },
                         { name: "Lombo com Molho de Pimenta", note: "Calor controlado e textura rica.", image: imageAssets.creamySteak },
-                        { name: "Lombo com Molho de Cogumelos", note: "Clássico cremoso da casa.", image: imageAssets.creamySteak },
-                        { name: "Lombo com Molho Roquefort", note: "Opção luxuosa com perfil intenso.", image: imageAssets.lamb },
-                        { name: "Espetada de Lombo", note: "Visual de fogo e serviço impactante.", image: imageAssets.terrace },
-                        { name: "Black Pork", note: "Brasa premium com carater alentejano.", image: imageAssets.grilled }
+                        { name: "Lombo com Molho de Cogumelos", note: "Classico cremoso da casa.", image: imageAssets.creamySteak },
+                        { name: "Lombo com Molho Roquefort", note: "Opcao luxuosa com perfil intenso.", image: imageAssets.lamb },
+                        { name: "Espetada de Lombo", note: "Visual de fogo e servico impactante.", image: imageAssets.terrace }
+                    ]
+                },
+                {
+                    title: "Borrego",
+                    items: [
+                        { name: "Grilled Lamb Chop", note: "Costeleta com perfil elegante e forte.", image: imageAssets.lamb }
                     ]
                 }
             ]
@@ -737,7 +983,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             { name: "Camarao", note: "Sabor do mar com final delicado e textura rica." },
                             { name: "Ameijoas", note: "Ameijoas com carater costeiro e perfil salino." },
                             { name: "Acorda Alentejana", note: "Conforto alentejano em prato iconico." },
-                            { name: "Sopa Alentejana", note: "Entrada quente e aromatica para noites tranquilas." }
+                            { name: "Sopa de Tomate Alentejana", note: "Sopa de tomate com bacalhau, ovo e pedacos de pao para um conforto tipico da casa." }
                         ]
                     },
                     {
@@ -761,20 +1007,39 @@ document.addEventListener("DOMContentLoaded", () => {
                 description: "Carnes premium, cortes classicos e molhos encorpados servidos com visual de brasa.",
                 groups: [
                     {
-                        title: "Brasa Premium",
+                        title: "Porco Preto",
                         items: [
-                            { name: "Costeleta de Borrego Grelhada", note: "Costeleta com perfil elegante e forte." },
+                            { name: "Porco Preto", note: "Brasa premium com carater alentejano." },
+                            { name: "Secretos", note: "Corte suculento e muito procurado." },
+                            { name: "Plumas", note: "Tenras, delicadas e cheias de sabor." },
+                            { name: "Lagartos", note: "Brasa viva e acabamento memoravel." },
+                            { name: "Carne Alentejana", note: "Feita na frigideira com vinho branco, ameijoas e carne de porco." }
+                        ]
+                    },
+                    {
+                        title: "Frango",
+                        items: [
                             { name: "Lombinhos Bifinhos a Alentejana com Coentros e Alhos", note: "Corte fino com assinatura tradicional." },
                             { name: "Lombinhos Grelhados", note: "Brasa direta e acabamento suculento." },
                             { name: "Lombinhos com Molho de Pimenta", note: "Molho vibrante e quente." },
                             { name: "Lombinhos com Molho de Cogumelos", note: "Camada cremosa e aromatica." },
-                            { name: "Lombinhos com Molho Roquefort", note: "Perfil premium com intensidade azul." },
+                            { name: "Lombinhos com Molho Roquefort", note: "Perfil intenso com acabamento cremoso." }
+                        ]
+                    },
+                    {
+                        title: "Lombo de Novilho",
+                        items: [
                             { name: "Lombo Grelhado 250g", note: "Corte robusto para amantes de carne." },
                             { name: "Lombo com Molho de Pimenta", note: "Calor controlado e textura rica." },
                             { name: "Lombo com Molho de Cogumelos", note: "Classico cremoso da casa." },
                             { name: "Lombo com Molho Roquefort", note: "Opcao luxuosa com perfil intenso." },
-                            { name: "Espetada de Lombo", note: "Visual de fogo e servico impactante." },
-                            { name: "Porco Preto", note: "Brasa premium com carater alentejano." }
+                            { name: "Espetada de Lombo", note: "Visual de fogo e servico impactante." }
+                        ]
+                    },
+                    {
+                        title: "Borrego",
+                        items: [
+                            { name: "Costeleta de Borrego Grelhada", note: "Costeleta com perfil elegante e forte." }
                         ]
                     }
                 ]
@@ -827,7 +1092,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             { name: "Shrimps", note: "Sea flavour with a delicate finish and rich texture." },
                             { name: "Clams", note: "Coastal character with a gentle salty profile." },
                             { name: "Alentejo Acorda", note: "An iconic Alentejo comfort dish." },
-                            { name: "Alentejo Soup", note: "A warm aromatic starter for relaxed evenings." }
+                            { name: "Alentejo Tomato Soup", note: "Tomato soup with cod, egg and pieces of bread for a comforting regional dish." }
                         ]
                     },
                     {
@@ -851,20 +1116,39 @@ document.addEventListener("DOMContentLoaded", () => {
                 description: "Premium meats, classic cuts and rich sauces served with a live-fire look.",
                 groups: [
                     {
-                        title: "Premium Grill",
+                        title: "Black Pork",
                         items: [
-                            { name: "Grilled Lamb Chop", note: "A chop with an elegant and bold profile." },
+                            { name: "Black Pork", note: "Premium grilling with Alentejo character." },
+                            { name: "Secretos", note: "A juicy cut guests always ask for." },
+                            { name: "Plumas", note: "Tender, delicate and full of flavour." },
+                            { name: "Lagartos", note: "Live-fire grilling with a memorable finish." },
+                            { name: "Carne Alentejana", note: "Pork and clams cooked with white wine in a classic pan dish." }
+                        ]
+                    },
+                    {
+                        title: "Chicken",
+                        items: [
                             { name: "Thin Tenderloin Alentejo Style with Coriander and Garlic", note: "A thin cut with a traditional signature." },
                             { name: "Grilled Tenderloin", note: "Direct fire and a juicy finish." },
                             { name: "Tenderloin with Pepper Sauce", note: "Vibrant and warming sauce." },
                             { name: "Tenderloin with Mushroom Sauce", note: "Creamy and aromatic layer." },
-                            { name: "Tenderloin with Roquefort Sauce", note: "Premium profile with blue-cheese intensity." },
+                            { name: "Tenderloin with Roquefort Sauce", note: "A richer creamy finish with character." }
+                        ]
+                    },
+                    {
+                        title: "Beef Loin",
+                        items: [
                             { name: "Grilled Loin 250g", note: "A robust cut for meat lovers." },
                             { name: "Loin with Pepper Sauce", note: "Balanced heat and rich texture." },
                             { name: "Loin with Mushroom Sauce", note: "A creamy house classic." },
                             { name: "Loin with Roquefort Sauce", note: "A luxurious option with strong flavour." },
-                            { name: "Loin Skewer", note: "Fire-led presentation with real impact." },
-                            { name: "Black Pork", note: "Premium grilling with Alentejo character." }
+                            { name: "Loin Skewer", note: "Fire-led presentation with real impact." }
+                        ]
+                    },
+                    {
+                        title: "Lamb",
+                        items: [
+                            { name: "Grilled Lamb Chop", note: "A chop with an elegant and bold profile." }
                         ]
                     }
                 ]
@@ -917,7 +1201,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             { name: "Gambas", note: "Sabor a mar con final delicado y textura rica." },
                             { name: "Almejas", note: "Caracter costero con perfil salino suave." },
                             { name: "Acorda Alentejana", note: "Plato iconico de confort del Alentejo." },
-                            { name: "Sopa Alentejana", note: "Entrada caliente y aromatica para noches tranquilas." }
+                            { name: "Sopa de Tomate Alentejana", note: "Sopa de tomate con bacalao, huevo y trozos de pan para un sabor casero y tradicional." }
                         ]
                     },
                     {
@@ -1359,6 +1643,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const elements = {
+        skipLink: document.querySelector(".skip-link"),
         navbar: document.querySelector(".navbar"),
         navBackdrop: document.querySelector(".nav-backdrop"),
         backToTop: document.querySelector(".back-to-top"),
@@ -1367,6 +1652,10 @@ document.addEventListener("DOMContentLoaded", () => {
         navItems: document.querySelectorAll(".nav-links a"),
         revealElements: document.querySelectorAll(".reveal, .reveal-up"),
         menuButtons: document.querySelectorAll(".menu-button"),
+        menuButtonTraditionalLabel: document.querySelector('.menu-button[data-category="tradicional"] span'),
+        menuButtonGrilledLabel: document.querySelector('.menu-button[data-category="grelhados"] span'),
+        menuButtonStartersLabel: document.querySelector('.menu-button[data-category="entradas"] span'),
+        menuButtonDessertsLabel: document.querySelector('.menu-button[data-category="sobremesas"] span'),
         modal: document.getElementById("menu-modal"),
         modalPanel: document.querySelector(".menu-modal-panel"),
         modalCloseButton: document.querySelector(".menu-modal-close"),
@@ -1380,19 +1669,36 @@ document.addEventListener("DOMContentLoaded", () => {
         galleryDots: document.getElementById("gallery-dots"),
         gallerySlides: document.querySelectorAll(".gallery-slide"),
         galleryControls: document.querySelectorAll(".gallery-control"),
+        qrTargetButtons: document.querySelectorAll(".qr-target"),
+        qrTargetLabel: document.getElementById("qr-target-label"),
+        qrOpenLink: document.getElementById("qr-open-link"),
         decorativeVideos: document.querySelectorAll(".hero-video, .section-video"),
         qrCodeImage: document.getElementById("qr-code-image"),
         reservationForm: document.getElementById("reservation-form"),
         reservationActions: document.getElementById("reservation-actions"),
         reservationSms: document.getElementById("reservation-sms"),
         reservationCall: document.getElementById("reservation-call"),
+        reservationWhatsapp: document.getElementById("reservation-whatsapp"),
+        reservationCopy: document.getElementById("reservation-copy"),
+        reservationSummary: document.getElementById("reservation-summary"),
         formMessage: document.getElementById("form-message"),
         dateInput: document.getElementById("date"),
         languageSelect: document.getElementById("language-select"),
         metaDescription: document.getElementById("meta-description"),
         mapIframe: document.querySelector(".map-frame iframe"),
         contactAddressValue: document.querySelector(".contact-card .fa-location-dot + div span"),
-        whatsappLinks: document.querySelectorAll('a[href*="wa.me/351920461581"]')
+        whatsappLinks: document.querySelectorAll('a[href*="wa.me/351927011299"]'),
+        fishSectionTag: document.querySelector(".experience-grid .experience-card:nth-child(1) .section-tag"),
+        grillSectionTag: document.querySelector(".experience-grid .experience-card:nth-child(2) .section-tag"),
+        blackPorkSectionTag: document.querySelector(".experience-grid .experience-card:nth-child(3) .section-tag"),
+        fishFeatureItems: document.querySelectorAll(".experience-grid .experience-card:nth-child(1) .feature-list li"),
+        grillFeatureItems: document.querySelectorAll(".experience-grid .experience-card:nth-child(2) .feature-list li"),
+        blackPorkFeatureItems: document.querySelectorAll(".experience-grid .experience-card:nth-child(3) .feature-list li"),
+        nameInput: document.getElementById("name"),
+        phoneInput: document.getElementById("phone"),
+        guestsSelect: document.getElementById("guests"),
+        messageInput: document.getElementById("message"),
+        footerHomeLink: document.querySelector('.footer-links a[href="#home"]')
     };
 
     const copyBindings = {
@@ -1417,6 +1723,10 @@ document.addEventListener("DOMContentLoaded", () => {
         storyPoint2Text: document.querySelector('[data-copy="story.point2Text"]'),
         storyPoint3Title: document.querySelector('[data-copy="story.point3Title"]'),
         storyPoint3Text: document.querySelector('[data-copy="story.point3Text"]'),
+        storySignal1Title: document.querySelector('[data-copy="story.signal1Title"]'),
+        storySignal1Text: document.querySelector('[data-copy="story.signal1Text"]'),
+        storySignal2Title: document.querySelector('[data-copy="story.signal2Title"]'),
+        storySignal2Text: document.querySelector('[data-copy="story.signal2Text"]'),
         storyBadgeTop: document.querySelector('[data-copy="story.badgeTop"]'),
         storyBadgeBottom: document.querySelector('[data-copy="story.badgeBottom"]'),
         menuTag: document.querySelector('[data-copy="menu.tag"]'),
@@ -1439,6 +1749,32 @@ document.addEventListener("DOMContentLoaded", () => {
         galleryTitle: document.querySelector('[data-copy="gallery.title"]'),
         galleryIntro: document.querySelector('[data-copy="gallery.intro"]'),
         galleryLink: document.querySelector('[data-copy="gallery.link"]'),
+        galleryLiveTag: document.querySelector('[data-copy="gallery.liveTag"]'),
+        galleryLiveTitle: document.querySelector('[data-copy="gallery.liveTitle"]'),
+        galleryLiveBody: document.querySelector('[data-copy="gallery.liveBody"]'),
+        galleryLiveButton: document.querySelector('[data-copy="gallery.liveButton"]'),
+        galleryReviewTag: document.querySelector('[data-copy="gallery.reviewTag"]'),
+        galleryReviewTitle: document.querySelector('[data-copy="gallery.reviewTitle"]'),
+        galleryReviewBody: document.querySelector('[data-copy="gallery.reviewBody"]'),
+        galleryReviewButton: document.querySelector('[data-copy="gallery.reviewButton"]'),
+        reviewsTag: document.querySelector('[data-copy="reviews.tag"]'),
+        reviewsTitle: document.querySelector('[data-copy="reviews.title"]'),
+        reviewsIntro: document.querySelector('[data-copy="reviews.intro"]'),
+        reviewsMetricRating: document.querySelector('[data-copy="reviews.metricRating"]'),
+        reviewsMetricVolume: document.querySelector('[data-copy="reviews.metricVolume"]'),
+        reviewsMetricFeatureValue: document.querySelector('[data-copy="reviews.metricFeatureValue"]'),
+        reviewsMetricFeature: document.querySelector('[data-copy="reviews.metricFeature"]'),
+        reviewsCard1Chip: document.querySelector('[data-copy="reviews.card1Chip"]'),
+        reviewsCard1Title: document.querySelector('[data-copy="reviews.card1Title"]'),
+        reviewsCard1Body: document.querySelector('[data-copy="reviews.card1Body"]'),
+        reviewsCard2Chip: document.querySelector('[data-copy="reviews.card2Chip"]'),
+        reviewsCard2Title: document.querySelector('[data-copy="reviews.card2Title"]'),
+        reviewsCard2Body: document.querySelector('[data-copy="reviews.card2Body"]'),
+        reviewsCard3Chip: document.querySelector('[data-copy="reviews.card3Chip"]'),
+        reviewsCard3Title: document.querySelector('[data-copy="reviews.card3Title"]'),
+        reviewsCard3Body: document.querySelector('[data-copy="reviews.card3Body"]'),
+        reviewsPrimaryButton: document.querySelector('[data-copy="reviews.primaryButton"]'),
+        reviewsSecondaryButton: document.querySelector('[data-copy="reviews.secondaryButton"]'),
         contactTag: document.querySelector('[data-copy="contact.tag"]'),
         contactTitle: document.querySelector('[data-copy="contact.title"]'),
         contactIntro: document.querySelector('[data-copy="contact.intro"]'),
@@ -1459,13 +1795,31 @@ document.addEventListener("DOMContentLoaded", () => {
         formTime: document.querySelector('[data-copy="form.time"]'),
         formMessage: document.querySelector('[data-copy="form.message"]'),
         formSubmit: document.querySelector('[data-copy="form.submit"]'),
+        formWhatsapp: document.querySelector('[data-copy="form.whatsapp"]'),
         formSms: document.querySelector('[data-copy="form.sms"]'),
         formCall: document.querySelector('[data-copy="form.call"]'),
+        formCopy: document.querySelector('[data-copy="form.copy"]'),
+        bookingQuickWhatsappTitle: document.querySelector('[data-copy="booking.quickWhatsappTitle"]'),
+        bookingQuickWhatsappText: document.querySelector('[data-copy="booking.quickWhatsappText"]'),
+        bookingQuickCallTitle: document.querySelector('[data-copy="booking.quickCallTitle"]'),
+        bookingQuickCallText: document.querySelector('[data-copy="booking.quickCallText"]'),
+        bookingQuickMapTitle: document.querySelector('[data-copy="booking.quickMapTitle"]'),
+        bookingQuickMapText: document.querySelector('[data-copy="booking.quickMapText"]'),
+        qrTargetReserve: document.querySelector('[data-copy="qr.targetReserve"]'),
+        qrTargetMenu: document.querySelector('[data-copy="qr.targetMenu"]'),
+        qrTargetMap: document.querySelector('[data-copy="qr.targetMap"]'),
+        qrTargetReviews: document.querySelector('[data-copy="qr.targetReviews"]'),
+        qrCurrentLabel: document.querySelector('[data-copy="qr.currentLabel"]'),
+        qrOpenLink: document.querySelector('[data-copy="qr.openLink"]'),
         mapTag: document.querySelector('[data-copy="map.tag"]'),
         mapTitle: document.querySelector('[data-copy="map.title"]'),
         mapCopyTitle: document.querySelector('[data-copy="map.copyTitle"]'),
         mapCopyBody: document.querySelector('[data-copy="map.copyBody"]'),
         mapButton: document.querySelector('[data-copy="map.button"]'),
+        mobileCall: document.querySelector('[data-copy="mobile.call"]'),
+        mobileWhatsapp: document.querySelector('[data-copy="mobile.whatsapp"]'),
+        mobileReserve: document.querySelector('[data-copy="mobile.reserve"]'),
+        mobileMap: document.querySelector('[data-copy="mobile.map"]'),
         footerText: document.querySelector('[data-copy="footer.text"]'),
         footerMenu: document.querySelector('[data-copy="footer.menu"]'),
         footerGallery: document.querySelector('[data-copy="footer.gallery"]'),
@@ -1488,6 +1842,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let galleryIntervalId = null;
     let scrollTicking = false;
     let lastFocusedElement = null;
+    let currentQrTarget = "reserve";
+    let lastReservationText = "";
     let touchStartX = 0;
     let touchEndX = 0;
     const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -1498,7 +1854,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function syncBusinessDetails() {
         const whatsappMessage = "Olá Tasca O Bernardo, gostaria de fazer uma reserva.";
-        const whatsappHref = `https://wa.me/351920461581?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappHref = `https://wa.me/351927011299?text=${encodeURIComponent(whatsappMessage)}`;
 
         if (elements.contactAddressValue) {
             elements.contactAddressValue.textContent = "Avenida do Comércio 6, Boavista dos Pinheiros, Odemira";
@@ -1507,6 +1863,152 @@ document.addEventListener("DOMContentLoaded", () => {
         elements.whatsappLinks.forEach((link) => {
             link.href = whatsappHref;
         });
+    }
+
+    function applyContextTranslations(copy) {
+        if (elements.skipLink && copy.skipLink) {
+            elements.skipLink.textContent = copy.skipLink;
+        }
+
+        if (elements.menuButtonTraditionalLabel && copy.menuButtonTraditionalLabel) {
+            elements.menuButtonTraditionalLabel.textContent = copy.menuButtonTraditionalLabel;
+        }
+        if (elements.menuButtonGrilledLabel && copy.menuButtonGrilledLabel) {
+            elements.menuButtonGrilledLabel.textContent = copy.menuButtonGrilledLabel;
+        }
+        if (elements.menuButtonStartersLabel && copy.menuButtonStartersLabel) {
+            elements.menuButtonStartersLabel.textContent = copy.menuButtonStartersLabel;
+        }
+        if (elements.menuButtonDessertsLabel && copy.menuButtonDessertsLabel) {
+            elements.menuButtonDessertsLabel.textContent = copy.menuButtonDessertsLabel;
+        }
+
+        if (elements.fishSectionTag && copy.fishSectionTag) {
+            elements.fishSectionTag.textContent = copy.fishSectionTag;
+        }
+        if (elements.grillSectionTag && copy.grillSectionTag) {
+            elements.grillSectionTag.textContent = copy.grillSectionTag;
+        }
+        if (elements.blackPorkSectionTag && copy.blackPorkSectionTag) {
+            elements.blackPorkSectionTag.textContent = copy.blackPorkSectionTag;
+        }
+
+        [copy.fishFeature1, copy.fishFeature2, copy.fishFeature3, copy.fishFeature4].forEach((value, index) => {
+            if (elements.fishFeatureItems[index] && value) {
+                elements.fishFeatureItems[index].textContent = value;
+            }
+        });
+        [copy.grillFeature1, copy.grillFeature2, copy.grillFeature3, copy.grillFeature4].forEach((value, index) => {
+            if (elements.grillFeatureItems[index] && value) {
+                elements.grillFeatureItems[index].textContent = value;
+            }
+        });
+        [copy.blackPorkFeature1, copy.blackPorkFeature2, copy.blackPorkFeature3, copy.blackPorkFeature4].forEach((value, index) => {
+            if (elements.blackPorkFeatureItems[index] && value) {
+                elements.blackPorkFeatureItems[index].textContent = value;
+            }
+        });
+
+        if (elements.nameInput && copy.formNamePlaceholder) {
+            elements.nameInput.placeholder = copy.formNamePlaceholder;
+        }
+        if (elements.phoneInput && copy.formPhonePlaceholder) {
+            elements.phoneInput.placeholder = copy.formPhonePlaceholder;
+        }
+        if (elements.messageInput && copy.formMessagePlaceholder) {
+            elements.messageInput.placeholder = copy.formMessagePlaceholder;
+        }
+
+        if (elements.guestsSelect) {
+            const guestOptions = elements.guestsSelect.querySelectorAll("option");
+            const guestCopy = [
+                copy.guestsPlaceholder,
+                copy.guestsOption2,
+                copy.guestsOption4,
+                copy.guestsOption6,
+                copy.guestsOption8
+            ];
+            guestCopy.forEach((value, index) => {
+                if (guestOptions[index] && value) {
+                    guestOptions[index].textContent = value;
+                }
+            });
+        }
+
+        if (elements.footerHomeLink && copy.footerHome) {
+            elements.footerHomeLink.textContent = copy.footerHome;
+        }
+    }
+
+    function getMenuItemMeta(categoryKey, item) {
+        const name = (item.name || "").toLowerCase();
+
+        if (categoryKey === "tradicional") {
+            if (name.includes("shrimp") || name.includes("camarao") || name.includes("clam") || name.includes("ameijo")) {
+                return { price: "EUR 17-22", tags: ["seafood", "popular"] };
+            }
+
+            if (name.includes("secret") || name.includes("pluma") || name.includes("lagarto") || name.includes("lombinho")) {
+                return { price: "EUR 18-24", tags: ["local", "signature"] };
+            }
+
+            return { price: "EUR 14-19", tags: ["comfort", "local"] };
+        }
+
+        if (categoryKey === "grelhados") {
+            if (name.includes("black pork") || name.includes("porco") || name.includes("secret") || name.includes("pluma") || name.includes("lagarto")) {
+                return { price: "EUR 18-24", tags: ["local", "signature"] };
+            }
+
+            if (name.includes("lombinhos") || name.includes("tenderloin")) {
+                return { price: "EUR 14-19", tags: ["grill", "popular"] };
+            }
+
+            if (name.includes("roquefort") || name.includes("250g") || name.includes("lamb")) {
+                return { price: "EUR 22-28", tags: ["premium", "grill"] };
+            }
+
+            return { price: "EUR 18-24", tags: ["grill", "popular"] };
+        }
+
+        if (categoryKey === "entradas") {
+            if (name.includes("tabua") || name.includes("board") || name.includes("shrimp") || name.includes("camarao")) {
+                return { price: null, tags: ["share", "popular"] };
+            }
+
+            return { price: null, tags: ["share", "local"] };
+        }
+
+        return { price: "EUR 4-7", tags: ["sweet", "comfort"] };
+    }
+
+    function getMenuTagText(tag) {
+        const labels = menuTagLabels[currentLanguage] || menuTagLabels.en;
+        return labels[tag] || tag;
+    }
+
+    function getMenuItemVisual(categoryKey, itemMeta) {
+        if (categoryKey === "sobremesas") {
+            return { icon: "fa-cake-candles", label: getMenuTagText("sweet") };
+        }
+
+        if (categoryKey === "entradas") {
+            return { icon: "fa-utensils", label: getMenuTagText("share") };
+        }
+
+        if (itemMeta.tags.includes("seafood")) {
+            return { icon: "fa-fish", label: getMenuTagText("seafood") };
+        }
+
+        if (itemMeta.tags.includes("grill")) {
+            return { icon: "fa-fire-flame-curved", label: getMenuTagText("grill") };
+        }
+
+        if (itemMeta.tags.includes("local")) {
+            return { icon: "fa-drumstick-bite", label: getMenuTagText("local") };
+        }
+
+        return { icon: "fa-utensils", label: getMenuTagText("popular") };
     }
 
     function getTranslatedMenuCategory(categoryKey) {
@@ -1594,17 +2096,38 @@ document.addEventListener("DOMContentLoaded", () => {
         startGalleryAutoplay();
     }
 
-    function getQrTargetUrl() {
-        const whatsappFallback = "https://wa.me/351920461581?text=Ol%C3%A1%20Tasca%20O%20Bernardo,%20gostaria%20de%20fazer%20uma%20reserva.";
-
+    function buildHostedUrl(hash, fallbackUrl) {
         if (!window.location.protocol.startsWith("http")) {
-            return whatsappFallback;
+            return fallbackUrl;
         }
 
-        const qrUrl = new URL(window.location.href);
-        qrUrl.hash = "";
-        qrUrl.searchParams.set("source", "qr");
-        return qrUrl.toString();
+        const targetUrl = new URL(window.location.href);
+        targetUrl.hash = hash;
+        targetUrl.searchParams.set("source", "qr");
+        return targetUrl.toString();
+    }
+
+    function getQrTargets() {
+        const copy = getLanguageCopy();
+
+        return {
+            reserve: {
+                label: copy.qrLabelReserve,
+                url: buildHostedUrl("#contact", "https://wa.me/351927011299?text=Ola%20Tasca%20O%20Bernardo,%20gostaria%20de%20fazer%20uma%20reserva.")
+            },
+            menu: {
+                label: copy.qrLabelMenu,
+                url: buildHostedUrl("#menu-experience", "https://www.instagram.com/tascadobernardo/")
+            },
+            map: {
+                label: copy.qrLabelMap,
+                url: "https://www.google.com/maps/search/?api=1&query=Avenida+do+Comercio+6,+Boavista+dos+Pinheiros,+Odemira,+Portugal"
+            },
+            reviews: {
+                label: copy.qrLabelReviews,
+                url: "https://www.tripadvisor.com/Restaurant_Review-g1190866-d4697291-Reviews-Tasca_O_Bernardo-Odemira_Beja_District_Alentejo.html"
+            }
+        };
     }
 
     function renderQrCode() {
@@ -1612,8 +2135,24 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        const targetUrl = getQrTargetUrl();
-        elements.qrCodeImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=280x280&margin=12&data=${encodeURIComponent(targetUrl)}`;
+        const qrTargets = getQrTargets();
+        const activeTarget = qrTargets[currentQrTarget] || qrTargets.reserve;
+        elements.qrCodeImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=320x320&margin=10&format=svg&ecc=H&color=40231a&bgcolor=fffaf6&data=${encodeURIComponent(activeTarget.url)}`;
+        elements.qrCodeImage.alt = activeTarget.label;
+
+        if (elements.qrTargetLabel) {
+            elements.qrTargetLabel.textContent = activeTarget.label;
+        }
+
+        if (elements.qrOpenLink) {
+            elements.qrOpenLink.href = activeTarget.url;
+        }
+
+        elements.qrTargetButtons.forEach((button) => {
+            const isActive = button.dataset.qrTarget === currentQrTarget;
+            button.classList.toggle("is-active", isActive);
+            button.setAttribute("aria-pressed", String(isActive));
+        });
     }
 
     function setMenuState(isOpen) {
@@ -1659,7 +2198,9 @@ document.addEventListener("DOMContentLoaded", () => {
             elements.hamburger.setAttribute("aria-label", getMenuToggleLabel(isExpanded));
         }
 
+        applyContextTranslations(copy);
         syncBusinessDetails();
+        renderQrCode();
 
         elements.menuButtons.forEach((button) => {
             const category = button.dataset.category;
@@ -1693,7 +2234,7 @@ document.addEventListener("DOMContentLoaded", () => {
         elements.modalMedia.appendChild(image);
     }
 
-    function renderModalGroups(category) {
+    function renderModalGroups(categoryKey, category) {
         elements.modalGroups.innerHTML = "";
 
         category.groups.forEach((group) => {
@@ -1707,12 +2248,26 @@ document.addEventListener("DOMContentLoaded", () => {
             grid.className = "menu-grid";
 
             group.items.forEach((item) => {
+                const itemMeta = getMenuItemMeta(categoryKey, item);
+                const itemVisual = getMenuItemVisual(categoryKey, itemMeta);
+                const tagsMarkup = itemMeta.tags
+                    .map((tag) => `<span class="menu-tag">${getMenuTagText(tag)}</span>`)
+                    .join("");
                 const card = document.createElement("article");
                 card.className = "menu-item-card";
                 card.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}">
-                    <div>
-                        <strong>${item.name}</strong>
+                    <div class="menu-item-visual" aria-hidden="true">
+                        <div class="menu-item-icon">
+                            <i class="fas ${itemVisual.icon}"></i>
+                        </div>
+                        <span class="menu-item-visual-label">${itemVisual.label}</span>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-top">
+                            <strong>${item.name}</strong>
+                            ${itemMeta.price ? `<span class="menu-price">${itemMeta.price}</span>` : ""}
+                        </div>
+                        <div class="menu-tag-row">${tagsMarkup}</div>
                         <span>${item.note}</span>
                     </div>
                 `;
@@ -1744,7 +2299,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const copy = getLanguageCopy();
         lastFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
         renderModalMedia(category);
-        renderModalGroups(category);
+        renderModalGroups(categoryKey, category);
 
         elements.modalTag.textContent = copy.modalTag;
         elements.modalTitle.textContent = category.title;
@@ -2076,12 +2631,44 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const fieldsToWatch = elements.reservationForm.querySelectorAll("input, select, textarea");
     const phoneField = document.getElementById("phone");
-    const targetNumber = "920461581";
+    const targetNumber = "927011299";
 
     fieldsToWatch.forEach((field) => {
-        field.addEventListener("input", () => setFieldState(field, false));
+        field.addEventListener("input", () => {
+            setFieldState(field, false);
+            if (elements.reservationActions) {
+                elements.reservationActions.hidden = true;
+            }
+            if (elements.reservationSummary) {
+                elements.reservationSummary.hidden = true;
+            }
+            elements.formMessage.textContent = "";
+        });
         field.addEventListener("change", () => setFieldState(field, false));
     });
+
+    elements.qrTargetButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+            currentQrTarget = button.dataset.qrTarget || "reserve";
+            renderQrCode();
+        });
+    });
+
+    if (elements.reservationCopy) {
+        elements.reservationCopy.addEventListener("click", async () => {
+            if (!lastReservationText || !navigator.clipboard?.writeText) {
+                return;
+            }
+
+            try {
+                await navigator.clipboard.writeText(lastReservationText);
+                elements.formMessage.className = "form-message success";
+                elements.formMessage.textContent = getLanguageCopy().messagesCopyReady;
+            } catch (_error) {
+                return;
+            }
+        });
+    }
 
     elements.reservationForm.addEventListener("submit", async (event) => {
         event.preventDefault();
@@ -2096,6 +2683,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (elements.reservationActions) {
             elements.reservationActions.hidden = true;
+        }
+
+        if (elements.reservationSummary) {
+            elements.reservationSummary.hidden = true;
         }
 
         if (invalidField) {
@@ -2141,8 +2732,10 @@ document.addEventListener("DOMContentLoaded", () => {
         ].join("\n");
 
         const smsUrl = `sms:${targetNumber}?body=${encodeURIComponent(reservationText)}`;
+        const whatsappUrl = `https://wa.me/351${targetNumber}?text=${encodeURIComponent(reservationText)}`;
         const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
         let copiedToClipboard = false;
+        lastReservationText = reservationText;
 
         if (!isMobile && navigator.clipboard?.writeText) {
             try {
@@ -2157,12 +2750,26 @@ document.addEventListener("DOMContentLoaded", () => {
             elements.reservationSms.href = smsUrl;
         }
 
+        if (elements.reservationWhatsapp) {
+            elements.reservationWhatsapp.href = whatsappUrl;
+        }
+
         if (elements.reservationCall) {
             elements.reservationCall.href = `tel:${targetNumber}`;
         }
 
         if (elements.reservationActions) {
             elements.reservationActions.hidden = false;
+        }
+
+        if (elements.reservationSummary) {
+            elements.reservationSummary.hidden = false;
+            elements.reservationSummary.innerHTML = `
+                <strong>${copy.formSummaryTitle}</strong>
+                <span>${copy.formGuests}: ${guestsField?.options[guestsField.selectedIndex]?.text || ""}</span>
+                <span>${copy.formDate}: ${dateValue}</span>
+                <span>${copy.formTime}: ${document.getElementById("time")?.value || ""}</span>
+            `;
         }
 
         elements.formMessage.className = "form-message success";
