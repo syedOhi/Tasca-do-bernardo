@@ -1659,9 +1659,11 @@ document.addEventListener("DOMContentLoaded", () => {
         modal: document.getElementById("menu-modal"),
         modalPanel: document.querySelector(".menu-modal-panel"),
         modalCloseButton: document.querySelector(".menu-modal-close"),
+        modalBody: document.querySelector(".menu-modal-body"),
         modalTag: document.getElementById("menu-modal-tag"),
         modalTitle: document.getElementById("menu-modal-title"),
         modalDescription: document.getElementById("menu-modal-description"),
+        modalMeta: document.getElementById("menu-modal-meta"),
         modalMedia: document.getElementById("menu-modal-media"),
         modalGroups: document.getElementById("menu-modal-groups"),
         modalCloseControls: document.querySelectorAll("[data-close-modal]"),
@@ -2259,6 +2261,30 @@ document.addEventListener("DOMContentLoaded", () => {
         elements.modalMedia.appendChild(image);
     }
 
+    function getGroupCountText(count) {
+        if (currentLanguage === "pt") {
+            return `${count} ${count === 1 ? "prato" : "pratos"}`;
+        }
+
+        return `${count} ${count === 1 ? "dish" : "dishes"}`;
+    }
+
+    function renderModalMeta(category) {
+        if (!elements.modalMeta) {
+            return;
+        }
+
+        const totalItems = category.groups.reduce((sum, group) => sum + group.items.length, 0);
+        const groupsLabel = currentLanguage === "pt"
+            ? `${category.groups.length} ${category.groups.length === 1 ? "secao" : "seccoes"}`
+            : `${category.groups.length} ${category.groups.length === 1 ? "section" : "sections"}`;
+
+        elements.modalMeta.innerHTML = `
+            <span class="menu-modal-meta-item"><i class="fas fa-layer-group"></i>${groupsLabel}</span>
+            <span class="menu-modal-meta-item"><i class="fas fa-utensils"></i>${getGroupCountText(totalItems)}</span>
+        `;
+    }
+
     function renderModalGroups(categoryKey, category) {
         elements.modalGroups.innerHTML = "";
 
@@ -2266,8 +2292,15 @@ document.addEventListener("DOMContentLoaded", () => {
             const groupElement = document.createElement("section");
             groupElement.className = "menu-group";
 
+            const headingWrap = document.createElement("div");
+            headingWrap.className = "menu-group-head";
+
             const heading = document.createElement("h4");
             heading.textContent = group.title;
+
+            const groupCount = document.createElement("span");
+            groupCount.className = "menu-group-count";
+            groupCount.textContent = getGroupCountText(group.items.length);
 
             const grid = document.createElement("div");
             grid.className = "menu-grid";
@@ -2299,7 +2332,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 grid.appendChild(card);
             });
 
-            groupElement.append(heading, grid);
+            headingWrap.append(heading, groupCount);
+            groupElement.append(headingWrap, grid);
             elements.modalGroups.appendChild(groupElement);
         });
     }
@@ -2324,7 +2358,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const copy = getLanguageCopy();
         lastFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
         renderModalMedia(category);
+        renderModalMeta(category);
         renderModalGroups(categoryKey, category);
+        if (elements.modalBody) {
+            elements.modalBody.scrollTop = 0;
+        }
 
         elements.modalTag.textContent = copy.modalTag;
         elements.modalTitle.textContent = category.title;

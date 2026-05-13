@@ -170,7 +170,8 @@
                         </button>
                     </div>
 
-                    <div class="experience-grid">
+                    <div class="experience-grid" aria-hidden="true">
+
                         <article class="experience-card reveal">
                             <div class="card-glow"></div>
                             <span class="section-tag">Fish</span>
@@ -547,9 +548,12 @@
             </button>
             <div class="menu-modal-media" id="menu-modal-media"></div>
             <div class="menu-modal-body">
-                <span class="section-tag" id="menu-modal-tag">Carta</span>
-                <h3 id="menu-modal-title">Categoria</h3>
-                <p id="menu-modal-description" class="menu-modal-description"></p>
+                <div class="menu-modal-header">
+                    <span class="section-tag" id="menu-modal-tag">Carta</span>
+                    <h3 id="menu-modal-title">Categoria</h3>
+                    <p id="menu-modal-description" class="menu-modal-description"></p>
+                    <div id="menu-modal-meta" class="menu-modal-meta"></div>
+                </div>
                 <div id="menu-modal-groups" class="menu-modal-groups"></div>
             </div>
         </div>
