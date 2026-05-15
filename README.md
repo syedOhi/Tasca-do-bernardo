@@ -1,47 +1,43 @@
 # Tasca O Bernardo Website
 
-Website institucional de uma tasca/restaurante tradicional alentejano, construído com HTML, CSS e JavaScript puros.
+Single-page restaurant website developed for **Tasca O Bernardo** located in Boavista dos Pinheiros, Odemira. Created as a modern web development project focused on responsive design, user experience (UI/UX), and interactive customer engagement.
 
-## O que já inclui
+## Overview
 
-- Página única com navegação fluida entre secções
-- Hero com identidade visual da marca
-- Destaques da casa e menu filtrável
-- Galeria preparada para receber fotografias reais
-- Área de contacto com CTA para chamada e mapa
-- Formulário de reserva com validação e apoio a SMS
-- Metadados básicos de SEO e dados estruturados do restaurante
+The website was built using plain HTML, CSS, and JavaScript, with emphasis on cinematic presentation, mobile-friendly navigation, and simplified reservation actions for visitors.
 
-## Estrutura do projeto
+Main features include:
 
-```text
+- Responsive hero landing section
+- Restaurant story and atmosphere section
+- Interactive menu with category filtering and modal display
+- Image gallery with autoplay and touch navigation
+- Customer reviews and trust-building section
+- Reservation form integrated with WhatsApp and SMS actions
+- QR code shortcuts for booking, maps, and menu access
+- Multi-language interface support
+
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+No frameworks or external build tools were used.
+
+---
+
+## Project Structure
+
+```bash
 bella-vista-restaurant/
-|-- index.html
-|-- style.css
-|-- script.js
-`-- assets/
-    |-- images/
-    `-- icons/
-```
-
-## Como abrir localmente
-
-1. Abra a pasta do projeto no VS Code.
-2. Abra o ficheiro `index.html` diretamente no browser, ou use uma extensão como Live Server.
-3. Faça as alterações de conteúdo, imagens e contactos conforme necessário.
-
-## Próximas melhorias recomendadas
-
-1. Substituir imagens de stock por fotografias reais do restaurante, pratos e sala.
-2. Inserir um embed real do Google Maps na secção de contactos.
-3. Ligar o formulário a um backend, e-mail transacional ou WhatsApp Business.
-4. Adicionar uma carta completa em PDF ou página dedicada.
-5. Afinar dados finais de horário, telefones e links sociais com a equipa do restaurante.
-
-## Conteúdo que convém confirmar antes de publicar
-
-- Número de telefone principal para reservas
-- Horários de almoço e jantar por época
-- Link oficial do mapa
-- Redes sociais e e-mail público
-- Fotografias finais da marca e do espaço
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── assets/
+    ├── images/
+    └── ...
